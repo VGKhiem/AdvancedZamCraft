@@ -107,17 +107,20 @@ Tính năng độc quyền cho phép Admin tạo ra các trang bị độc nhấ
 
 - **Tiền tệ Linh Hồn**: Đây là hệ thống tiền tệ nội bộ của plugin, được lưu độc lập theo UUID người chơi. Sử dụng cho các hoạt động rèn, khảm ngọc và nâng cấp.
 - **Vault (Soft-Depend)**: Nếu server có cài Vault, plugin sẽ hỗ trợ tính năng cộng thêm vàng khi tiêu diệt quái vật dựa trên chỉ số `MONEY_BONUS`.
-- **MythicMobs**: Bạn có thể thiết lập quái vật rơi ra Linh Hồn khi bị tiêu diệt bằng cách thêm dòng `Souls: <số_lượng>` trực tiếp vào file cấu hình quái vật.
-  - *Ví dụ:*
+- **MythicMobs**: Bạn có thể thiết lập các chỉ số phần thưởng rơi ra từ quái vật trong tệp cấu hình quái vật:
+  - <span style="color: #1abc9c; font-weight: bold;">Exp</span>: Đây là thuộc tính tự định nghĩa riêng (Custom) của AdvancedZamCraft. Bạn cấu hình thêm khoá <code><span style="color: #1abc9c;">Exp: &lt;số_lượng&gt;</span></code> vào tệp cấu hình quái vật để cộng kinh nghiệm khi người chơi hạ quái.
+  - <span style="color: #e2c027; font-weight: bold;">Money</span>: Đây là thuộc tính tự định nghĩa riêng (Custom) của AdvancedZamCraft. Bạn cấu hình thêm khoá <code><span style="color: #e2c027;">Money: &lt;số_lượng&gt;</span></code> vào tệp cấu hình quái vật để thưởng tiền vàng khi người chơi hạ quái.
+  - <span style="color: #8e44ad; font-weight: bold;">Soul</span>: Đây là thuộc tính tự định nghĩa riêng (Custom) của AdvancedZamCraft. Bạn cấu hình thêm khoá <code><span style="color: #8e44ad;">Soul: &lt;số_lượng&gt;</span></code> vào tệp cấu hình quái vật để cộng Linh Hồn nội bộ khi người chơi hạ quái.
+  - *Ví dụ cấu hình:*
     ```yaml
     SkeletionChuaTe:
       Type: SKELETON
       Display: '&c&lKhung Xương Chúa Tể'
       Health: 500
       Damage: 20
-      Exp: 80
-      Money: 200
-      Souls: 3    # Người chơi nhận được 3 Linh Hồn khi giết quái vật này
+      Exp: 80       # Biến của AdvancedZamCraft 
+      Money: 200    # Biến của AdvancedZamCraft 
+      Soul: 3       # Biến của AdvancedZamCraft
     ```
 - **ProtocolLib (Dependency)**: Bắt buộc cài đặt để ẩn các bộ hiển thị sát thương mặc định của Minecraft, giúp plugin tự thiết kế cơ chế hiển thị sát thương dạng Hologram mượt mà và trực quan hơn.
 
