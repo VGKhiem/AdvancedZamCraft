@@ -8,7 +8,7 @@ AdvancedZamCraft là một plugin RPG nâng cao dành cho server Minecraft (**Pa
 
 ### 🎭 1. Hệ Thống Hệ Phái (Classes) & Thiên Phú (Talents)
 Plugin hỗ trợ 4 lớp nhân vật cơ bản, mỗi phái có hệ số nhận chỉ số gốc khác nhau và bảng thiên phú riêng biệt:
-- 🗡️ **SÁT THỦ (Assassin)**: Tốc độ cao, sát thương vật lý và chí mạng cực mạnh, nội tại tăng tỉ lệ hút máu và đòn đánh thứ 3 gây thêm sát thương.
+- 🗡️ **SÁT THỦ (Assassin)**: Linh hoạt, sát thương vật lý và chí mạng cực mạnh, nội tại tăng tỉ lệ hút máu và đòn đánh thứ 3 gây thêm sát thương. 
 - 🛡️ **HIỆP SĨ (Knight)**: Lượng máu và giáp vượt trội, khả năng phản sát thương, đỡ đòn tốt, nội tại tăng % máu tối đa.
 - 🏹 **CUNG THỦ (Archer)**: Chiến đấu tầm xa với lượng sát thương cung lớn, tốc độ di chuyển nhanh, nội tại tăng tỉ lệ bắn ra chùm tên.
 - 🔮 **PHÁP SƯ (Mage)**: Tầm đánh phép xa, lượng mana và hồi mana dồi dào, tăng sát thương phép thuật và sát thương kỹ năng, nội tại tăng % kháng sát thương.
